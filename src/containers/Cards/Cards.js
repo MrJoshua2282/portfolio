@@ -52,8 +52,6 @@ class Cards extends Component {
         return (
             <div className='projects'>
                 {card}
-                
-                {/* <ProjectBtn onClick={this.changeProjectHandler} /> */}
             </div>
         );
     }
