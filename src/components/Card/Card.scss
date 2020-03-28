@@ -1,3 +1,27 @@
+.anchorTitle,
+.anchorTitle:visited {
+    position: absolute;
+    // display: grid;
+    // align-self: center;
+    padding-top: 1rem;
+    bottom:10%;
+    left: 50%;
+    width: 7rem;
+    height: 3rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: black;
+    vertical-align: center;
+    text-align: center;
+    transition: all .3s;
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.3);
+    transform: translate(-50%, -50%);
+
+    &:hover {
+        box-shadow: 0 .75rem .75rem rgba(0, 0, 0, 0.75);
+        transform: translate(-50%, -40%);
+    }
+}
 
 .card {
     perspective: 150rem;
@@ -5,7 +29,8 @@
     position: relative;
     height: 40rem;
     width: 30rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
+    transform: translateY(20rem);
 
     &:hover .cardFront {
         transform: rotateY(-180deg);
@@ -38,7 +63,6 @@
         &--title {
             margin: 1rem;
             text-align: center;
-            font-family: "Lucida Console", Monaco, monospace;
             font-size: 2rem;
             border-bottom: 3px solid white;
         }
@@ -62,9 +86,7 @@
 
         &--items {
             text-align: center;
-            list-style: none;
-            font-family: "Lucida Console", Monaco, monospace;
-        
+            list-style: none;        
         }
     }
 }
@@ -73,6 +95,7 @@
     transform: rotateY(180deg);
     box-sizing: border-box;
     padding: 2rem;
+    position: relative;
 
     &--list {
         list-style: none;
