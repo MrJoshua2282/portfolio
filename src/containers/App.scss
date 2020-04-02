@@ -140,15 +140,57 @@ li {
   top: 80%;
   transform: translate(-50%, -50%);
   width: 60%;
-  height: 7rem;
+  height: max-content;
   vertical-align: center;
   text-align: center;
   position: relative;
 }
 
-.author {
-  font-size: 1.5rem;
-  position: absolute;
-  background-color: rgba(255, 255, 255, 0);
-  right: 4rem;
+@media (max-width: 1300px) {
+  .allProjects {
+    height: 150rem;
+    clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 100%);
+  }
+}
+
+@media (max-width: 900px) {
+  .allProjects {
+    height: 235rem;
+    clip-path: polygon(0 0, 100% 4.25%, 100% 100%, 0 100%);
+  }
+
+  .info {
+
+    &--aboutMe{
+      transform: translateY(-4rem);
+
+      &--description {
+
+        & p,
+        & span {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .info--languages {
+    transform: scale(.5);
+  }
+}
+
+@media (max-width: 600px) {
+  .quote {
+    // transform: translateY(-4rem);
+    left: 15rem;
+    top: 46rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .info--languages {
+    transform: scale(.5) translateX(-6rem);
+  }
 }
