@@ -1,11 +1,11 @@
 import React from 'react';
-import './CssIcon.scss';
-import cssIcon from '../../assets/img/css3.svg';
+import './MongoDBIcon.scss';
+import MongooseIcon from '../../assets/img/mongoose.jpg';
 
 const Icon = (props) => {
     return (
         <div className='iconContainer'>
-            <img className='css' src={cssIcon} alt='css logo'></img>
+            <img className='mongoose' src={MongooseIcon} alt='mongoose logo'></img>
             {props.children}
         </div>
     );

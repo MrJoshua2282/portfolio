@@ -1,11 +1,11 @@
 import React from 'react';
-import './CssIcon.scss';
-import cssIcon from '../../assets/img/css3.svg';
+import './Python.scss';
+import PythonIcon from '../../assets/img/python.png';
 
 const Icon = (props) => {
     return (
         <div className='iconContainer'>
-            <img className='css' src={cssIcon} alt='css logo'></img>
+            <img className='python' src={PythonIcon} alt='css logo'></img>
             {props.children}
         </div>
     );

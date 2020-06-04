@@ -1,0 +1,46 @@
+.card-body {
+    width: 80rem;
+    height: 20rem;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    border-radius: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    // position: relative;
+
+    display: grid;
+    grid-template-columns: max-content 5fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+
+    &-project-name,
+    &-project-languages {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    &-project-name {
+        letter-spacing: .5rem;
+        font-size: 2rem;
+    }
+
+    &-project-languages {
+        letter-spacing: .25rem;
+        font-size: 1.5rem;
+    }
+
+    &-image {
+    }
+
+    &-right {
+        display: grid;
+        justify-items: center;
+    }
+}
+
+.card-button {
+    width: 6rem;
+    height: 3rem;
+    border-radius: 1rem;
+    display: block;
+}

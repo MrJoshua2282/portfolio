@@ -7,6 +7,7 @@ const Icon = (props) => {
         <div className='iconContainer'>
             <img className='node' src={nodeJsIcon} alt='node logo'></img>
             {props.children}
+            <div className='language-name'>NodeJS</div>
         </div>
     );
 };
