@@ -2,26 +2,25 @@ import React from 'react';
 
 import './MyStack.scss';
 
-import Html from '../Logos/HtmlIcon';
-import Css from '../Logos/CssIcon';
-import Sass from '../Logos/SassIcon';
-import Js from '../Logos/JsIcon';
-import ReactIcon from '../Logos/ReactIcon';
-import Redux from '../Logos/ReduxIcon';
+import Logo from '../Logos/Logo';
 // import NodeIcon from '../Logos/NodeJsIcon';
 // import MongoDB from '../Logos/MongoDBIcon';
 // import Express from '../Logos/ExpressIcon';
 
 const MyStack = () => {
     return (
-        <div className='my-stack'>
-            <Html />
-            <Css />
-            <Sass />
-            <Js />
-            <ReactIcon />
-            <Redux />
-        </div>
+        <span className='my-stack'>
+            <Logo language='html' />
+            <Logo language='css' />
+            <Logo language='sass' />
+            <Logo language='js' />
+            <Logo language='react' />
+            <Logo language='redux' />
+            <Logo language='node' />
+            <Logo language='express' />
+            <Logo language='mongodb' />
+            <Logo language='mongoose' />
+        </span>
     );
 };
 

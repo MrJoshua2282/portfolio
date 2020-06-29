@@ -1,13 +1,28 @@
 .about-me {
 width: 100%;
-// background-color: rgb(218, 216, 216);
+height: max-content;
+padding: 55rem 2rem 2rem 2rem;
 background: linear-gradient(0.25turn, #3f87a6, #ebf8e1);
-display: flex;
-align-content: center;
-align-items: center;
-flex-direction: column;
-// position: fixed;
+border-bottom: .5rem solid rgb(20, 184, 196);
 
+display: grid;
+grid-template-columns: 50% 50%;
+// align-content: center;
+// align-items: center;
+justify-content: center;
+justify-items: center;
+transform: translateY(-4rem);
+z-index: -11;
+position: relative;
+
+    &-section {
+        display: grid;
+        justify-items: center;
+    }
+
+    &-my_stack {
+        
+    }
 }
 
 .profile-pic {
@@ -15,22 +30,17 @@ flex-direction: column;
     margin-bottom: 3rem;
     width: 15rem;
     height: 25rem;
-   
 }
 
 .list{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: inherit;
     letter-spacing: .5;
     font-size: 1.5rem;
     list-style: none;
     text-align: center;
 }
 
-.padding {
-    padding-top: 3rem;
-}
-
-.name {
+.bold {
     font-weight: 600;
     font-size: 1.75rem;
 }

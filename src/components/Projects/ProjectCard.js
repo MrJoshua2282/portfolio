@@ -2,9 +2,12 @@ import React from 'react';
 
 import './ProjectCard.scss';
 
-import GitIcon from '../Logos/GitIcon';
+import Logo from '../Logos/Logo';
 
 const ProjectCard = props => {
+    let git = props.gitHub.map(el => {
+        return (<a href={el} target='_blank' rel="noopener noreferrer"><Logo style={{ display: 'inline' }} language='git' /></a>)
+    })
     return (
         <div className='card-body'>
             <div>
@@ -13,7 +16,7 @@ const ProjectCard = props => {
             <div className='card-body-right'>
                 <div className='card-body-project-name'>{props.name}</div>
                 <div className='card-body-project-languages'>{props.languages}</div>
-                <a href={props.gitHub} target='_blank' rel="noopener noreferrer"><GitIcon /></a>
+                <span>{git}</span>
                 <a href={props.viewUrl} target='_blank' rel="noopener noreferrer"><button className='card-button'>View</button></a>
             </div>
         </div>
