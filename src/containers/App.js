@@ -8,7 +8,7 @@ import ContactMe from '../components/ContactMe/ContactMe';
 class App extends Component {
   render() {
     return (
-      <div id className='full-page'>
+      <div className='full-page'>
         <div className='header-image'></div>
         <AboutMe />
         <div className='app-projects-section'>

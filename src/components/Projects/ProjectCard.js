@@ -6,7 +6,7 @@ import Logo from '../Logos/Logo';
 
 const ProjectCard = props => {
     let git = props.gitHub.map(el => {
-        return (<a href={el} target='_blank' rel="noopener noreferrer"><Logo style={{ display: 'inline' }} language='git' /></a>)
+        return (<a href={el} key={el} target='_blank' rel="noopener noreferrer"><Logo style={{ display: 'inline' }} language='git' /></a>)
     })
     return (
         <div className='card-body'>

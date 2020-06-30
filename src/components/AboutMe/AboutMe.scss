@@ -21,7 +21,8 @@ position: relative;
     }
 
     &-my_stack {
-        
+        display: grid;
+        justify-items: center;
     }
 }
 

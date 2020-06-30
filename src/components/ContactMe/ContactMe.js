@@ -24,6 +24,7 @@ export default function ContactMe() {
                     </span>
                 </section>
                 <li className='list bold'>Thank you for your time and consideration!</li>
+                <li className='list'>P.s. A text in advance would be most helpful in filtering out spam calls, cheers.</li>
             </div>
             {showModal &&
                 <section>
