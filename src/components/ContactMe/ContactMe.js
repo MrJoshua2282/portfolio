@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import './ContactMe.scss';
 import Logo from '../Logos/Logo';
-import Resume from '../Resume/Resume';
+// import Resume from '../Resume/Resume';
+import ResumePdf from '../../assets/pdf/Joshua McCue20FullStack.pdf';
 
 export default function ContactMe() {
-    const [showModal, setShowModal] = useState(false)
     return (
         <React.Fragment>
             <div className='contact_me_div'>
@@ -18,19 +18,12 @@ export default function ContactMe() {
                     <span>
                         <li className='list bold'><a href='https://www.linkedin.com/in/joshua-mccue-4616121ab/' target='_blank' rel="noopener noreferrer"><Logo language='linkedin' /></a></li>
                         <li className='list bold'><a href='https://github.com/MrJoshua2282' target='_blank' rel="noopener noreferrer"><Logo language='git' /></a></li>
-                        <li className='list bold li_resume' onClick={() => {
-                            setShowModal(!showModal);
-                        }}>{showModal ? 'Hide Resume' : 'Show Resume'}</li>
+                        <li className='list bold li_resume' > <a href={ResumePdf} target='_blank' rel="noopener noreferrer">Resume</a></li>
                     </span>
                 </section>
                 <li className='list bold'>Thank you for your time and consideration!</li>
                 <li className='list'>P.s. A text in advance would be most helpful in filtering out spam calls, cheers.</li>
             </div>
-            {showModal &&
-                <section>
-                    <Resume />
-                </section>
-            }
         </React.Fragment>
     )
 }
