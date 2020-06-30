@@ -1,2 +1,1 @@
-Portfolio
 This portfolio is an ongoing documentation of all my projects. I have created this apps utilizing various state management strategies and languages with the intention of offering a great user experience as well as a diversified coding experience.
