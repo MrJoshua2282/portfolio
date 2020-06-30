@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ad26993db4d67bfd28a8d53c4ff446da",
+    "revision": "82d13147ea82f30046e35631a66070a3",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "11f0d50bfbfa2c8eed19",
-    "url": "/portfolio/static/css/main.f3de25ad.chunk.css"
+    "revision": "b3d17c2f5e27d6237963",
+    "url": "/portfolio/static/css/main.96fd6e0e.chunk.css"
   },
   {
-    "revision": "d762ea91dc40d7eb03ac",
-    "url": "/portfolio/static/js/2.276f5082.chunk.js"
+    "revision": "9e38e419e32e3e763c11",
+    "url": "/portfolio/static/js/2.0e161089.chunk.js"
   },
   {
     "revision": "5356fa2f66e46e6c05e4cbe319ac7f1d",
-    "url": "/portfolio/static/js/2.276f5082.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.0e161089.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "11f0d50bfbfa2c8eed19",
-    "url": "/portfolio/static/js/main.c228ad78.chunk.js"
+    "revision": "b3d17c2f5e27d6237963",
+    "url": "/portfolio/static/js/main.5c97e67c.chunk.js"
   },
   {
     "revision": "383229b839ba9a252410",
     "url": "/portfolio/static/js/runtime-main.d20f85db.js"
+  },
+  {
+    "revision": "13da4452eb6c06a7e1a78b20cf03d820",
+    "url": "/portfolio/static/media/Joshua McCue20FullStack.13da4452.pdf"
   },
   {
     "revision": "091b3d3e5b8ae64ff7b8d9b02caeff58",
@@ -30,10 +34,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "daa1e88a38c9bd02501b903e90e209cc",
     "url": "/portfolio/static/media/city.daa1e88a.jpg"
-  },
-  {
-    "revision": "3d67f9f80cf576db8f9e5e2f89e51852",
-    "url": "/portfolio/static/media/css-certificate.3d67f9f8.jpg"
   },
   {
     "revision": "4be6aceb9bbe2e8b997acfd41d20991c",
@@ -64,20 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/git.76d344f0.svg"
   },
   {
-    "revision": "ff5b9dbd5a9d11722a87edab7f9954e1",
-    "url": "/portfolio/static/media/html-css-certificate.ff5b9dbd.jpg"
-  },
-  {
     "revision": "5bf5d82e95c8bb28ba6afd8cfd4e728d",
     "url": "/portfolio/static/media/html5.5bf5d82e.svg"
-  },
-  {
-    "revision": "184474e05b7a8c8d28948e606f98c6fa",
-    "url": "/portfolio/static/media/js-certificate.184474e0.jpg"
-  },
-  {
-    "revision": "a7b254ea58bb279ded3f057b0ce45998",
-    "url": "/portfolio/static/media/js-weirdparts-certificate.a7b254ea.jpg"
   },
   {
     "revision": "5654e1280e4f74303ef74e506d04c21d",
@@ -88,20 +76,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/memory.9ac78a48.png"
   },
   {
-    "revision": "7b6287ec0ce876753ffadcb6a0256139",
-    "url": "/portfolio/static/media/mern-certificate.7b6287ec.jpg"
-  },
-  {
     "revision": "5821aa1443889c214400f2458f695ed9",
     "url": "/portfolio/static/media/mongodb.5821aa14.png"
   },
   {
     "revision": "b5f449225815d4a4276390246b84842b",
     "url": "/portfolio/static/media/mongoose.b5f44922.jpg"
-  },
-  {
-    "revision": "7162f418b80987b5d36e6c93dcaf07ea",
-    "url": "/portfolio/static/media/node-certificate.7162f418.jpg"
   },
   {
     "revision": "335460b26d850b7f25af623bcdf51260",
@@ -122,10 +102,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2cf82c2dd8c51bb3f318492c56163677",
     "url": "/portfolio/static/media/quote.2cf82c2d.png"
-  },
-  {
-    "revision": "3933674c64dc57ddf61dc2267ef449db",
-    "url": "/portfolio/static/media/react-certificate.3933674c.jpg"
   },
   {
     "revision": "092e0882358cd09dbe9376b64d0f2a0e",
