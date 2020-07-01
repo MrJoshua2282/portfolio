@@ -3,7 +3,7 @@ import React from 'react';
 import './ContactMe.scss';
 import Logo from '../Logos/Logo';
 // import Resume from '../Resume/Resume';
-import ResumePdf from '../../assets/pdf/Joshua McCue20FullStack.pdf';
+import ResumePdf from '../../assets/pdf/J McCue 20 full stack-condensed.pdf';
 
 export default function ContactMe() {
     return (

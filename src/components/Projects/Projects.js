@@ -9,8 +9,8 @@ import formApp from '../../assets/img/form.png';
 import imageMemoryCards from '../../assets/img/memory.png';
 import weatherApp from '../../assets/img/weather.png';
 import loopTimer from '../../assets/img/timer.png';
-import drumApp from '../../assets/img/drum.png';
-import quote from '../../assets/img/quote.png';
+// import drumApp from '../../assets/img/drum.png';
+// import quote from '../../assets/img/quote.png';
 import quiz from '../../assets/img/quiz.png';
 import ebuyGif from '../../assets/img/ebuy-rcording.gif';
 
@@ -31,9 +31,9 @@ class Projects extends Component {
 
             { name: 'Loop Timer', image: <img className='project-image' src={loopTimer} alt='project' />, viewUrl: 'https://mrjoshua2282.github.io/loopTimer/', gitHub: ['https://github.com/MrJoshua2282/loopTimer/tree/master'], languages: 'Css | React' },
 
-            { name: 'Drum Board', image: <img className='project-image' src={drumApp} alt='project' />, viewUrl: 'https://mrjoshua2282.github.io/drumBoard/', gitHub: ['https://github.com/MrJoshua2282/drumBoard/tree/master'], languages: 'Css | React' },
+            // { name: 'Drum Board', image: <img className='project-image' src={drumApp} alt='project' />, viewUrl: 'https://mrjoshua2282.github.io/drumBoard/', gitHub: ['https://github.com/MrJoshua2282/drumBoard/tree/master'], languages: 'Css | React' },
 
-            { name: 'Quote Machine', image: <img className='project-image' src={quote} alt='project' />, viewUrl: 'https://mrjoshua2282.github.io/quoteMachine/', gitHub: ['https://github.com/MrJoshua2282/quoteMachine/tree/master'], languages: 'Css | React' },
+            // { name: 'Quote Machine', image: <img className='project-image' src={quote} alt='project' />, viewUrl: 'https://mrjoshua2282.github.io/quoteMachine/', gitHub: ['https://github.com/MrJoshua2282/quoteMachine/tree/master'], languages: 'Css | React' },
         ]
     }
     render() {
