@@ -1,22 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.96fd6e0e.chunk.css",
-    "main.js": "/portfolio/static/js/main.5c97e67c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.5c97e67c.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.26ef061e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.26ef061e.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.d20f85db.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.d20f85db.js.map",
-    "static/js/2.0e161089.chunk.js": "/portfolio/static/js/2.0e161089.chunk.js",
-    "static/js/2.0e161089.chunk.js.map": "/portfolio/static/js/2.0e161089.chunk.js.map",
+    "static/js/2.e1e7e904.chunk.js": "/portfolio/static/js/2.e1e7e904.chunk.js",
+    "static/js/2.e1e7e904.chunk.js.map": "/portfolio/static/js/2.e1e7e904.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.9ab3fde0a7646aadbbd5aa664c76aef5.js": "/portfolio/precache-manifest.9ab3fde0a7646aadbbd5aa664c76aef5.js",
+    "precache-manifest.d19672d69e0e7a8d35a344ad7c6b2d95.js": "/portfolio/precache-manifest.d19672d69e0e7a8d35a344ad7c6b2d95.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.96fd6e0e.chunk.css.map": "/portfolio/static/css/main.96fd6e0e.chunk.css.map",
-    "static/js/2.0e161089.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0e161089.chunk.js.LICENSE.txt",
-    "static/media/Joshua McCue20FullStack.pdf": "/portfolio/static/media/Joshua McCue20FullStack.13da4452.pdf",
+    "static/js/2.e1e7e904.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e1e7e904.chunk.js.LICENSE.txt",
     "static/media/budget.png": "/portfolio/static/media/budget.091b3d3e.png",
     "static/media/App.scss": "/portfolio/static/media/city.daa1e88a.jpg",
     "static/media/css3.svg": "/portfolio/static/media/css3.4be6aceb.svg",
-    "static/media/drum.png": "/portfolio/static/media/drum.55553ac1.png",
     "static/media/ebuy-pic.png": "/portfolio/static/media/ebuy-pic.20ff719c.png",
     "static/media/ebuy-rcording.gif": "/portfolio/static/media/ebuy-rcording.5373ffae.gif",
     "static/media/express.jpg": "/portfolio/static/media/express.fd103945.jpg",
@@ -31,17 +29,17 @@
     "static/media/profile-pic.jpg": "/portfolio/static/media/profile-pic.8d892648.jpg",
     "static/media/python.png": "/portfolio/static/media/python.b9bbb1d7.png",
     "static/media/quiz.png": "/portfolio/static/media/quiz.a1178d97.png",
-    "static/media/quote.png": "/portfolio/static/media/quote.2cf82c2d.png",
     "static/media/react.svg": "/portfolio/static/media/react.092e0882.svg",
     "static/media/redux.svg": "/portfolio/static/media/redux.5c7392a9.svg",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.3be95c60.pdf",
     "static/media/sass.svg": "/portfolio/static/media/sass.416d7a89.svg",
     "static/media/timer.png": "/portfolio/static/media/timer.fe93867c.png",
     "static/media/weather.png": "/portfolio/static/media/weather.42265df8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d20f85db.js",
-    "static/js/2.0e161089.chunk.js",
+    "static/js/2.e1e7e904.chunk.js",
     "static/css/main.96fd6e0e.chunk.css",
-    "static/js/main.5c97e67c.chunk.js"
+    "static/js/main.26ef061e.chunk.js"
   ]
 }
