@@ -13,7 +13,7 @@ const AboutMe = () => {
                 <ul >
                     <li className='list bold'>Joshua McCue</li>
                     <li className='list'>Self-Taught</li>
-                    <li className='list'>Full Stack Developer</li>
+                    <li className='list'>Full-Stack Developer</li>
                     <li className='list'>Passionate for dry, dynamic, and maintainable code!</li>
                 </ul>
             </section>
