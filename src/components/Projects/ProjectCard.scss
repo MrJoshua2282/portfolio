@@ -16,7 +16,7 @@
 
     &-project-name,
     &-project-languages {
-        // font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
     }
 
     &-project-name {
@@ -43,6 +43,19 @@
     height: 3rem;
     border-radius: 1rem;
     display: block;
+}
+
+.video_container {
+    width: 100%;
+    height: 40rem;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.center_video {
+    height: 100%;
 }
 
 @media (max-width: 900px) {
