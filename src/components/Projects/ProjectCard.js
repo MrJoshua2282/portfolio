@@ -21,7 +21,7 @@ const ProjectCard = props => {
     if (props.viewUrl[0] === 'video') {
         viewUrl = (
             <button onClick={() => setShowVideo(!showVideo)} className='card-button'>
-                View
+                {showVideo ? 'Hide' : 'View'}
             </button>
         )
     } else if (props.viewUrl[0] === 'site') {
