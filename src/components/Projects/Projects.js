@@ -18,19 +18,19 @@ import ebuyVideo from '../../assets/video/ebuy-rcording.mov';
 class Projects extends Component {
     state = {
         projects: [
-            { name: 'ebuy', image: <img className='project-image' src={ebuy} alt='project' />, viewUrl: ['video', ebuyVideo], gitHub: ['https://github.com/MrJoshua2282/ebuy-front-end', 'https://github.com/MrJoshua2282/ebuy-back-end'], languages: 'Css | React | Node.js | Express | MongoDb | Mongoose' },
+            { name: 'ebuy', image: <img className='project-image' src={ebuy} alt='project' />, viewUrl: ['video', ebuyVideo], gitHub: ['https://github.com/MrJoshua2282/ebuy-front-end', 'https://github.com/MrJoshua2282/ebuy-back-end'], FELanguages: 'Css | React | Redux(thunk)', BELanguages: ' Node.js | Express | MongoDb | Mongoose' },
 
-            { name: 'Quiz', image: <img className='project-image' src={quiz} alt='project' />, viewUrl: ['site', 'https://mrjoshua2282.github.io/quiz/'], gitHub: ['https://github.com/MrJoshua2282/quiz/tree/master'], languages: 'Sass | React' },
+            { name: 'Quiz', image: <img className='project-image' src={quiz} alt='project' />, viewUrl: ['site', 'https://mrjoshua2282.github.io/quiz/'], gitHub: ['https://github.com/MrJoshua2282/quiz/tree/master'], FELanguages: 'Sass | React' },
 
-            { name: 'Memory Cards', image: <img className='project-image' src={imageMemoryCards} alt='project' />, viewUrl: ['site', 'https://mrjoshua2282.github.io/memoryCards/'], gitHub: ['https://github.com/MrJoshua2282/memoryCards/tree/master'], languages: 'Sass | React' },
+            { name: 'Memory Cards', image: <img className='project-image' src={imageMemoryCards} alt='project' />, viewUrl: ['site', 'https://mrjoshua2282.github.io/memoryCards/'], gitHub: ['https://github.com/MrJoshua2282/memoryCards/tree/master'], FELanguages: 'Sass | React' },
 
-            { name: 'Form Validation', image: <img className='project-image' src={formApp} alt='project' />, viewUrl: ['site', 'https://mrjoshua2282.github.io/forms/'], gitHub: ['https://github.com/MrJoshua2282/forms/tree/master'], languages: 'Css | React' },
+            { name: 'Form Validation', image: <img className='project-image' src={formApp} alt='project' />, viewUrl: ['site', 'https://mrjoshua2282.github.io/forms/'], gitHub: ['https://github.com/MrJoshua2282/forms/tree/master'], FELanguages: 'Css | React' },
 
-            { name: 'Budget App', image: <img className='project-image' src={budgetApp} alt='project' />, viewUrl: ['site', 'https://mrjoshua2282.github.io/BudgetApp/'], gitHub: ['https://github.com/MrJoshua2282/BudgetApp/tree/master'], languages: 'Css | React' },
+            { name: 'Budget App', image: <img className='project-image' src={budgetApp} alt='project' />, viewUrl: ['site', 'https://mrjoshua2282.github.io/BudgetApp/'], gitHub: ['https://github.com/MrJoshua2282/BudgetApp/tree/master'], FELanguages: 'Css | React' },
 
-            { name: 'Weather Forecast', image: <img className='project-image' src={weatherApp} alt='project' />, viewUrl: ['site', 'https://mrjoshua2282.github.io/weatherForecast/'], gitHub: ['https://github.com/MrJoshua2282/weatherForecast/tree/master'], languages: 'Css | React' },
+            { name: 'Weather Forecast', image: <img className='project-image' src={weatherApp} alt='project' />, viewUrl: ['site', 'https://mrjoshua2282.github.io/weatherForecast/'], gitHub: ['https://github.com/MrJoshua2282/weatherForecast/tree/master'], FELanguages: 'Css | React' },
 
-            { name: 'Loop Timer', image: <img className='project-image' src={loopTimer} alt='project' />, viewUrl: ['site', 'https://mrjoshua2282.github.io/loopTimer/'], gitHub: ['https://github.com/MrJoshua2282/loopTimer/tree/master'], languages: 'Css | React' },
+            { name: 'Loop Timer', image: <img className='project-image' src={loopTimer} alt='project' />, viewUrl: ['site', 'https://mrjoshua2282.github.io/loopTimer/'], gitHub: ['https://github.com/MrJoshua2282/loopTimer/tree/master'], FELanguages: 'Css | React' },
 
             // { name: 'Drum Board', image: <img className='project-image' src={drumApp} alt='project' />, viewUrl: 'https://mrjoshua2282.github.io/drumBoard/', gitHub: ['https://github.com/MrJoshua2282/drumBoard/tree/master'], languages: 'Css | React' },
 
@@ -45,7 +45,8 @@ class Projects extends Component {
                 image={el.image}
                 viewUrl={el.viewUrl}
                 gitHub={el.gitHub}
-                languages={el.languages}
+                FELanguages={el.FELanguages}
+                BELanguages={el.BELanguages}
             />
             );
         });

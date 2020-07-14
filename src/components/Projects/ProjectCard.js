@@ -37,7 +37,8 @@ const ProjectCard = props => {
                 </div>
                 <div className='card-body-right'>
                     <div className='card-body-project-name'>{props.name}</div>
-                    <div className='card-body-project-languages'>{props.languages}</div>
+                    <div className='card-body-project-languages'>{props.FELanguages}</div>
+                    <div className='card-body-project-languages'>{props.BELanguages}</div>
                     <span>{git}</span>
                     {viewUrl}
                 </div>
