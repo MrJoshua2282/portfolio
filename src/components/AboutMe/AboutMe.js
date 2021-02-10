@@ -6,18 +6,15 @@ import profilePic from '../../assets/img/profile-pic.jpg';
 
 const AboutMe = () => {
     return (
-        <div className='about-me '>
-            <section className='about-me-section'>
-                <li className='list'>Eager to serve Happy to help.</li>
-                <img className='profile-pic' src={profilePic} alt='profile' />
+        <div className='about-me'>
+            <section className='about-me__section'>
+                <img className='about-me__image' src={profilePic} alt='profile' />
                 <ul >
-                    <li className='list bold'>Joshua McCue</li>
-                    <li className='list'>Self-Taught</li>
-                    <li className='list'>Full-Stack Developer</li>
-                    <li className='list'>Passionate for dry, dynamic, and maintainable code!</li>
+                    <li className='about-me__list bold'>Joshua McCue</li>
+                    <li className='about-me__list'>Full-Stack Developer</li>
                 </ul>
             </section>
-            <section className='about-me-my_stack'>
+            <section className='about-me__stack'>
                 <MyStack />
             </section>
         </div>

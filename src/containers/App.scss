@@ -16,6 +16,7 @@ $headerHeight: 70rem;
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .header-image {
   object-fit: contain;
