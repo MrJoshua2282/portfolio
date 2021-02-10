@@ -1,44 +1,38 @@
 .about-me {
-width: 100%;
-height: max-content;
-padding: 55rem 2rem 2rem 2rem;
-background: linear-gradient(0.25turn, #3f87a6, #ebf8e1);
-border-bottom: .5rem solid rgb(20, 184, 196);
+    width: 100%;
+    height: max-content;
+    padding: 55rem 2rem 2rem 2rem;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1);
+    border-bottom: .5rem solid rgb(20, 184, 196);
+    
+    justify-content: center;
+    justify-items: center;
+    transform: translateY(-4rem);
+    z-index: -11;
+    position: relative;
 
-display: grid;
-grid-template-columns: 50% 50%;
-// align-content: center;
-// align-items: center;
-justify-content: center;
-justify-items: center;
-transform: translateY(-4rem);
-z-index: -11;
-position: relative;
-
-    &-section {
+    &__section{
         display: grid;
         justify-items: center;
     }
-
-    &-my_stack {
+    &__image{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        width: 15rem;
+        height: 25rem;
+        border-radius: 2rem;
+    }
+    &__list{
+        font-family: inherit;
+        letter-spacing: .5;
+        font-size: 1.5rem;
+        list-style: none;
+        text-align: center;
+    }
+    &__stack{
         display: grid;
         justify-items: center;
     }
-}
-
-.profile-pic {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    width: 15rem;
-    height: 25rem;
-}
-
-.list{
-    font-family: inherit;
-    letter-spacing: .5;
-    font-size: 1.5rem;
-    list-style: none;
-    text-align: center;
 }
 
 .bold {

@@ -1,21 +1,32 @@
-.contact_me_div {
+.footer {
+    & > * {
+        font-weight: bold;
+        font-size: 1.75rem;
+        list-style-type: none;
+    }
+
     height: max-content;
     padding: 1rem;
     font-weight: inherit;
     background: linear-gradient(0.75turn, #3f87a6, #ebf8e1);
     border-bottom: .5rem solid rgb(20, 184, 196);
-}
+    &__list{
 
-.contact_me_sec {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+        &--resume{
+            cursor: pointer;
+        }
+    }
+    &__contact{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+    }
 
-    justify-content: center;
-    justify-items: center;
-    align-content: center;
-    align-items: center;
-}
-
-.li_resume {
-    cursor: pointer;
+    &__center {
+        text-align: center;
+    }
 }

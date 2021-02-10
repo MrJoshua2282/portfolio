@@ -13,6 +13,8 @@ import css from '../../assets/img/css3.svg';
 import git from '../../assets/img/git.svg';
 import express from '../../assets/img/express.jpg';
 import linkedin from '../../assets/img/linkedin.png';
+import mysql from '../../assets/img/mysql.png';
+import sequelize from '../../assets/img/sequelize.svg'
 
 const Icon = (props) => {
     let elSrc;
@@ -41,6 +43,12 @@ const Icon = (props) => {
         case 'express':
             elSrc = express;
             break;
+        case 'mysql':
+            elSrc = mysql;
+            break;
+        case 'sequelize':
+            elSrc = sequelize;
+            break;
         case 'mongodb':
             elSrc = mongodb;
             break;
@@ -56,7 +64,7 @@ const Icon = (props) => {
         case 'linkedin':
             elSrc = linkedin;
             break;
-        default: elSrc = html;
+        default: elSrc = <h1>Error</h1>;
     }
     return (
         <span style={props.style} className='iconContainer'>
