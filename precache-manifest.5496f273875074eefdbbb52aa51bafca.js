@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "542f89a1a78ccdd39e4bf98dbbadf0ae",
+    "revision": "4b3c81369d2f144d62f8278b76179fe8",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "196536c9cb0b7638881f",
-    "url": "/portfolio/static/css/main.2141f82f.chunk.css"
+    "revision": "240f8ac500e19c47176b",
+    "url": "/portfolio/static/css/main.7a695029.chunk.css"
   },
   {
-    "revision": "0d8e898b9c8f6acbc5c5",
-    "url": "/portfolio/static/js/2.e0f384fc.chunk.js"
+    "revision": "b4dfcbaa5d2bcaf13de6",
+    "url": "/portfolio/static/js/2.4df6ff60.chunk.js"
   },
   {
     "revision": "570d362d673dab785e62d2b8563e1118",
-    "url": "/portfolio/static/js/2.e0f384fc.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.4df6ff60.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "196536c9cb0b7638881f",
-    "url": "/portfolio/static/js/main.9875a87c.chunk.js"
+    "revision": "240f8ac500e19c47176b",
+    "url": "/portfolio/static/js/main.c4aa7c15.chunk.js"
   },
   {
     "revision": "383229b839ba9a252410",
     "url": "/portfolio/static/js/runtime-main.d20f85db.js"
+  },
+  {
+    "revision": "6fdb2f4a5c162c1e515d70526b68929c",
+    "url": "/portfolio/static/media/CityShade.6fdb2f4a.png"
   },
   {
     "revision": "11f70e64b0417a44ab1e3a14cd78d2d8",
@@ -52,6 +56,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/form.8ee49b92.png"
   },
   {
+    "revision": "b35bb12e5b3c28c136e7daccb9c0dea3",
+    "url": "/portfolio/static/media/gatsby.b35bb12e.svg"
+  },
+  {
     "revision": "76d344f08412543c74ccd1fb2493d607",
     "url": "/portfolio/static/media/git.76d344f0.svg"
   },
@@ -72,16 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/librarycityvideo.c6fcbf0e.mov"
   },
   {
-    "revision": "9ac78a487c59f47c097169a4d728119a",
-    "url": "/portfolio/static/media/memory.9ac78a48.png"
-  },
-  {
     "revision": "5821aa1443889c214400f2458f695ed9",
     "url": "/portfolio/static/media/mongodb.5821aa14.png"
-  },
-  {
-    "revision": "b5f449225815d4a4276390246b84842b",
-    "url": "/portfolio/static/media/mongoose.b5f44922.jpg"
   },
   {
     "revision": "af0dad0aff317476578e26326f7e565a",
@@ -108,8 +108,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/redux.5c7392a9.svg"
   },
   {
-    "revision": "ac269156d0967cf6777de102aaa763f8",
-    "url": "/portfolio/static/media/resume.ac269156.pdf"
+    "revision": "cc9aa7adb58671a0a911a3a98fdca051",
+    "url": "/portfolio/static/media/resume.cc9aa7ad.pdf"
   },
   {
     "revision": "416d7a89bdc8dad5cbd22f1062f73225",
@@ -118,6 +118,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "43c9d125de48e59cb29a88dd1b20bc46",
     "url": "/portfolio/static/media/sequelize.43c9d125.svg"
+  },
+  {
+    "revision": "cac815e4ee0f383f7b4b5302b5a7a29a",
+    "url": "/portfolio/static/media/shopify.cac815e4.svg"
   },
   {
     "revision": "b052f454e0af740514595c2ad2f74e51",
