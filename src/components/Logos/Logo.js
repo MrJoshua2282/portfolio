@@ -5,7 +5,8 @@ import redux from '../../assets/img/redux.svg';
 import react from '../../assets/img/react.svg';
 import python from '../../assets/img/python.png';
 import node from '../../assets/img/node.svg';
-import mongoose from '../../assets/img/mongoose.jpg';
+// import mongoose from '../../assets/img/mongoose.jpg';
+import mongoose from '../../assets/img/mongoose.png';
 import mongodb from '../../assets/img/mongodb.png';
 import js from '../../assets/img/js.svg';
 import html from '../../assets/img/html5.svg';
@@ -14,7 +15,10 @@ import git from '../../assets/img/git.svg';
 import express from '../../assets/img/express.jpg';
 import linkedin from '../../assets/img/linkedin.png';
 import mysql from '../../assets/img/mysql.png';
-import sequelize from '../../assets/img/sequelize.svg'
+import sequelize from '../../assets/img/sequelize.svg';
+import next from '../../assets/img/next.png';
+import gatsby from '../../assets/img/gatsby.svg';
+import shopify from '../../assets/img/shopify.svg';
 
 const Icon = (props) => {
     let elSrc;
@@ -36,6 +40,15 @@ const Icon = (props) => {
             break;
         case 'redux':
             elSrc = redux;
+            break;
+        case 'next':
+            elSrc = next;
+            break;
+        case 'gatsby':
+            elSrc = gatsby;
+            break;
+        case 'shopify':
+            elSrc = shopify;
             break;
         case 'node':
             elSrc = node;
@@ -68,7 +81,7 @@ const Icon = (props) => {
     }
     return (
         <span style={props.style} className='iconContainer'>
-            <img className={`${props.language} ${props.className}`} src={elSrc} alt={`${props.language} icon`}></img>
+            <img className={`${props.language} ${props.className} logo-img`} src={elSrc} alt={`${props.language} icon`}></img>
             <span className='language-name'>{props.children}</span>
         </span>
     );

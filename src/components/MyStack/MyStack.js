@@ -12,6 +12,9 @@ const MyStack = () => {
             <Logo language='js' />
             <Logo language='react' />
             <Logo language='redux' />
+            <Logo language='next' />
+            <Logo language='gatsby' />
+            <Logo language='shopify' />
             <Logo language='node' />
             <Logo language='express' />
             <Logo language='mysql' />

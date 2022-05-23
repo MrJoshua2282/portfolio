@@ -5,6 +5,8 @@
     font-size: 1.5rem;
 }
 
+.logo-img {}
+
 .html {
     width: 6rem;
     height: 6rem;
@@ -51,6 +53,30 @@
     margin: .5rem;
 }
 
+.next {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 2rem;
+    margin: .5rem;
+    background: white;
+    display: block;
+    object-fit: scale-down;
+}
+
+.gatsby {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 2rem;
+    margin: .5rem;
+}
+
+.shopify {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 2rem;
+    margin: .5rem;
+}
+
 .python {
     width: 6rem;
     height: 6rem;
@@ -87,6 +113,8 @@
     border-radius: 2rem;
     background: rgba(255, 255, 255, 0.5);
     margin: .5rem;
+    display: block;
+    object-fit: cover;
 }
 
 .mongodb {

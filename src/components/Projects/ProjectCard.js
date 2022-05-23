@@ -4,6 +4,7 @@ import './ProjectCard.scss';
 
 import Logo from '../Logos/Logo';
 
+
 const ProjectCard = props => {
     const [showVideo, setShowVideo] = useState(false);
 
@@ -27,6 +28,10 @@ const ProjectCard = props => {
     } else if (props.viewUrl[0] === 'site') {
         viewUrl = (
             <a href={props.viewUrl[1]} target='_blank' rel="noopener noreferrer"><button className='card-button'>View</button></a>
+        )
+    } else if (props.viewUrl[0] === 'web-site') {
+        viewUrl = (
+            <a href={props.viewUrl[1]} target='_blank' rel="noopener noreferrer"><button className='card-button card-button__margin-top'>View</button></a>
         )
     }
     return (

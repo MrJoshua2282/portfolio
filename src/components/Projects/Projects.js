@@ -7,7 +7,8 @@ import ebuy from "../../assets/img/ebuy-pic.png";
 import smartCart from "../../assets/img/SmartCart.png";
 import libraryCity from "../../assets/img/libCity.png";
 import formApp from "../../assets/img/form.png";
-import imageMemoryCards from "../../assets/img/memory.png";
+// import imageMemoryCards from "../../assets/img/memory.png";
+import CityShade from '../../assets/img/CityShade.png'
 // import budgetApp from '../../assets/img/budget.png';
 // import weatherApp from '../../assets/img/weather.png';
 // import loopTimer from '../../assets/img/timer.png';
@@ -23,12 +24,21 @@ class Projects extends Component {
   state = {
     projects: [
       {
+        name: "CityShade Company",
+        image: (
+          <img className="project-image" src={CityShade} alt="project" />
+        ),
+        viewUrl: ["web-site", "https://cityshadecompany.com/"],
+        gitHub: [],
+        FELanguages: "Shopify | Next.js"
+      },
+      {
         name: "SmartCart",
         image: <img className="project-image" src={smartCart} alt="project" />,
         viewUrl: ["video", smartCartVideo],
         gitHub: ["https://github.com/jmccueTechtonic/sc"],
         FELanguages: "Sass | React",
-        BELanguages: " Node.js | Express | MySQL | Sequelize",
+        BELanguages: "Node.js | Express | MySQL | Sequelize",
       },
 
       {
@@ -54,15 +64,15 @@ class Projects extends Component {
         BELanguages: " Node.js | Express | MongoDb | Mongoose",
       },
 
-      {
-        name: "Memory Cards",
-        image: (
-          <img className="project-image" src={imageMemoryCards} alt="project" />
-        ),
-        viewUrl: ["site", "https://mrjoshua2282.github.io/memoryCards/"],
-        gitHub: ["https://github.com/MrJoshua2282/memoryCards/tree/master"],
-        FELanguages: "Sass | React",
-      },
+      // {
+      //   name: "Memory Cards",
+      //   image: (
+      //     <img className="project-image" src={imageMemoryCards} alt="project" />
+      //   ),
+      //   viewUrl: ["site", "https://mrjoshua2282.github.io/memoryCards/"],
+      //   gitHub: ["https://github.com/MrJoshua2282/memoryCards/tree/master"],
+      //   FELanguages: "Sass | React",
+      // },
 
       {
         name: "Form Validation",
