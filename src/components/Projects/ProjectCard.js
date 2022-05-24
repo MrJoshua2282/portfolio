@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 
 import './ProjectCard.scss';
 
@@ -7,13 +7,20 @@ import Logo from '../Logos/Logo';
 
 const ProjectCard = props => {
     const [showVideo, setShowVideo] = useState(false);
+    const [height, setHeight] = useState('0px');
+    const videoRef = useRef(null);
+
+    const updateShowVideo = () => {
+        setHeight(!showVideo  ? videoRef.current.scrollHeight + 'px' : '0px')
+        setShowVideo(!showVideo)
+    }
 
     let git = props.gitHub.map(el => {
         return (<a href={el} key={el} target='_blank' rel="noopener noreferrer"><Logo style={{ display: 'inline' }} language='git' /></a>)
     })
     let viewUrl;
     let video = (
-        <div className='video_container'>
+        <div className='video_container' ref={videoRef} style={{height: height}}>
             <video className='center_video' loop muted autoPlay>
                 <source src={props.viewUrl[1]} />
             </video>
@@ -21,7 +28,7 @@ const ProjectCard = props => {
     )
     if (props.viewUrl[0] === 'video') {
         viewUrl = (
-            <button onClick={() => setShowVideo(!showVideo)} className='card-button'>
+            <button onClick={updateShowVideo} className='card-button'>
                 {showVideo ? 'Hide' : 'View'}
             </button>
         )
@@ -48,7 +55,7 @@ const ProjectCard = props => {
                     {viewUrl}
                 </div>
             </div>
-            {props.viewUrl[0] === 'video' && showVideo && video}
+            {props.viewUrl[0] === 'video' && video}
         </React.Fragment>
 
     );

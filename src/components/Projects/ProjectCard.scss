@@ -1,6 +1,7 @@
 .card-body {
     width: 80rem;
     height: 20rem;
+    min-height: 20rem;
     background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
     border-radius: 4rem;
     margin-top: 2rem;
@@ -15,6 +16,7 @@
 
     @media (max-width: 900px) {
         width: 95%;
+        height: max-content;
         margin: 2rem 2.5%;
     }
 
@@ -57,6 +59,8 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 1rem;
+    overflow: hidden;
+    transition: all .3s;
 }
 
 .center_video {
