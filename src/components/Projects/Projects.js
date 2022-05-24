@@ -32,6 +32,7 @@ class Projects extends Component {
         gitHub: [],
         FELanguages: "Shopify | Next.js"
       },
+      
       {
         name: "SmartCart",
         image: <img className="project-image" src={smartCart} alt="project" />,
@@ -96,7 +97,7 @@ class Projects extends Component {
     ],
   };
   render() {
-    let card = this.state.projects.map((el, i) => {
+    let cards = this.state.projects.map((el, i) => {
       return (
         <ProjectCard
           key={i}
@@ -109,7 +110,7 @@ class Projects extends Component {
         />
       );
     });
-    return <div className="projects">{card}</div>;
+    return <div className="projects">{cards}</div>;
   }
 }
 

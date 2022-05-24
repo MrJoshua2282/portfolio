@@ -20,7 +20,10 @@ const ProjectCard = props => {
     })
     let viewUrl;
     let video = (
-        <div className='video_container' ref={videoRef} style={{height: height}}>
+        <div className='video_container' 
+            ref={videoRef} 
+            style={{height: height, marginBottom: showVideo ? '1rem' : '0px', marginTop: showVideo ? '1rem' : '0px'}}
+        >
             <video className='center_video' loop muted autoPlay>
                 <source src={props.viewUrl[1]} />
             </video>

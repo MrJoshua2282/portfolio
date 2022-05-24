@@ -4,8 +4,6 @@
     min-height: 20rem;
     background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
     border-radius: 4rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
 
     display: grid;
     grid-template-columns: max-content 5fr;
@@ -13,6 +11,14 @@
     justify-items: center;
     justify-content: center;
     align-items: center;
+
+    &:not(:first-child) {
+        margin-top: 2rem;
+    }
+
+    &:last-child {
+        margin-bottom: 4rem;
+    }
 
     @media (max-width: 900px) {
         width: 95%;
@@ -58,7 +64,6 @@
     justify-items: center;
     justify-content: center;
     align-items: center;
-    margin-bottom: 1rem;
     overflow: hidden;
     transition: all .3s;
 }
