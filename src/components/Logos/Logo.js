@@ -1,5 +1,5 @@
 import React from 'react';
-import './Logo.scss';
+import * as S from './Logo.styles.js';
 import sass from '../../assets/img/sass.svg';
 import redux from '../../assets/img/redux.svg';
 import react from '../../assets/img/react.svg';
@@ -20,9 +20,9 @@ import next from '../../assets/img/next.png';
 import gatsby from '../../assets/img/gatsby.svg';
 import shopify from '../../assets/img/shopify.svg';
 
-const Icon = (props) => {
+const Icon = ({language, style, children}) => {
     let elSrc;
-    switch (props.language) {
+    switch (language) {
         case 'html':
             elSrc = html;
             break;
@@ -80,10 +80,10 @@ const Icon = (props) => {
         default: elSrc = <h1>Error</h1>;
     }
     return (
-        <span style={props.style} className='iconContainer'>
-            <img className={`${props.language} ${props.className} logo-img`} src={elSrc} alt={`${props.language} icon`}></img>
-            <span className='language-name'>{props.children}</span>
-        </span>
+        <S.IconContainer style={style}>
+            <S.Logo language={language} src={elSrc} alt={`${language}`}/>
+            <S.LanguageName>{children}</S.LanguageName>
+        </S.IconContainer>
     );
 };
 

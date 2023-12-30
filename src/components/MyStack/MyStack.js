@@ -1,11 +1,11 @@
 import React from 'react';
 
-import './MyStack.scss';
+import * as S from './MyStack.styles.js';
 import Logo from '../Logos/Logo';
 
 const MyStack = () => {
     return (
-        <span className='my-stack'>
+        <S.MyStack>
             <Logo language='html' />
             <Logo language='css' />
             <Logo language='sass' />
@@ -21,7 +21,7 @@ const MyStack = () => {
             <Logo language='sequelize' />
             <Logo language='mongodb' />
             <Logo language='mongoose' />
-        </span>
+        </S.MyStack>
     );
 };
 

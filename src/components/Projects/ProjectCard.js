@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 
-import './ProjectCard.scss';
+import * as S from './ProjectCard.styles.js';
 
 import Logo from '../Logos/Logo';
 
@@ -20,46 +20,46 @@ const ProjectCard = props => {
     })
     let viewUrl;
     let video = (
-        <div className='video_container' 
+        <S.VideoContainer
             ref={videoRef} 
-            style={{height: height, marginBottom: showVideo ? '1rem' : '0px', marginTop: showVideo ? '1rem' : '0px'}}
+            style={{height: height, marginTop: showVideo ? '20px' : '0px' }}
         >
-            <video className='center_video' loop muted autoPlay>
+            <S.Video loop muted autoPlay>
                 <source src={props.viewUrl[1]} />
-            </video>
-        </div>
+            </S.Video>
+        </S.VideoContainer>
     )
     if (props.viewUrl[0] === 'video') {
         viewUrl = (
-            <button onClick={updateShowVideo} className='card-button'>
+            <S.CardButton onClick={updateShowVideo}>
                 {showVideo ? 'Hide' : 'View'}
-            </button>
+            </S.CardButton>
         )
     } else if (props.viewUrl[0] === 'site') {
         viewUrl = (
-            <a href={props.viewUrl[1]} target='_blank' rel="noopener noreferrer"><button className='card-button'>View</button></a>
+            <a href={props.viewUrl[1]} target='_blank' rel="noopener noreferrer"><S.CardButton>View</S.CardButton></a>
         )
     } else if (props.viewUrl[0] === 'web-site') {
         viewUrl = (
-            <a href={props.viewUrl[1]} target='_blank' rel="noopener noreferrer"><button className='card-button card-button__margin-top'>View</button></a>
+            <a href={props.viewUrl[1]} target='_blank' rel="noopener noreferrer"><S.CardButton margin>View</S.CardButton></a>
         )
     }
     return (
-        <React.Fragment>
-            <div className='card-body'>
+        <S.Wrapper>
+            <S.CardBody>
                 <div>
-                    <span className='card-body-image' >{props.image}</span>
+                 {props.image}
                 </div>
-                <div className='card-body-right'>
-                    <div className='card-body-project-name'>{props.name}</div>
-                    <div className='card-body-project-languages'>{props.FELanguages}</div>
-                    <div className='card-body-project-languages'>{props.BELanguages}</div>
+                <S.CardBodyRight>
+                    <S.ProjectName>{props.name}</S.ProjectName>
+                    <S.ProjectLanguages>{props.FELanguages}</S.ProjectLanguages>
+                    <S.ProjectLanguages>{props.BELanguages}</S.ProjectLanguages>
                     <span>{git}</span>
                     {viewUrl}
-                </div>
-            </div>
-            {props.viewUrl[0] === 'video' && video}
-        </React.Fragment>
+                </S.CardBodyRight>
+            </S.CardBody>
+            {props.viewUrl[0] === 'video' ? video : null}
+        </S.Wrapper>
 
     );
 };

@@ -1,20 +1,19 @@
 import React from "react";
 
-import "./ContactMe.scss";
+import * as S from "./ContactMe.styles.js";
+import {CardButton} from "../Projects/ProjectCard.styles.js"
 import Logo from "../Logos/Logo";
-import ResumePdf from "../../assets/pdf/resume.pdf";
 
 export default function ContactMe() {
   return (
-    <>
-      <div className="footer">
-        <section className="footer__contact">
-          <span>
-            <li className="footer__list">Cell: (732) 567-3693</li>
-            <li className="footer__list">Email: jmccue369@gmail.com</li>
-          </span>
-          <span>
-            <li className="footer__list">
+      <S.Footer>
+        <S.FooterContact>
+          <S.Ul left>
+            <li>Cell: (732) 567-3693</li>
+            <li>Email: jmccue369@gmail.com</li>
+          </S.Ul>
+          <S.Ul right>
+            <li>
               <a
                 href="https://www.linkedin.com/in/joshua-mccue-4616121ab/"
                 target="_blank"
@@ -23,7 +22,7 @@ export default function ContactMe() {
                 <Logo language="linkedin" />
               </a>
             </li>
-            <li className="footer__list">
+            <li>
               <a
                 href="https://github.com/MrJoshua2282"
                 target="_blank"
@@ -32,18 +31,17 @@ export default function ContactMe() {
                 <Logo language="git" />
               </a>
             </li>
-            <li className="footer__list footer__list--resume">
+            <S.FooterList cursor>
               {" "}
-              <a href={ResumePdf} target="_blank" rel="noopener noreferrer">
-                Resume
-              </a>
-            </li>
-          </span>
-        </section>
-        <li className="footer__list footer__center">
+              <S.Anchor href="https://mccue.s3.us-east-2.amazonaws.com/joshua-mccue-resume.pdf" target="_blank" rel="noopener noreferrer">
+                <CardButton>Resume</CardButton>
+              </S.Anchor>
+            </S.FooterList>
+          </S.Ul>
+        </S.FooterContact>
+        <S.FooterList center>
           Thank you for your time and consideration!
-        </li>
-      </div>
-    </>
+        </S.FooterList>
+      </S.Footer>
   );
 }
