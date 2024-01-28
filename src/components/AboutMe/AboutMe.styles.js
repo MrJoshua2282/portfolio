@@ -1,23 +1,15 @@
 import styled from "styled-components";
 
 export const AboutMeWrapper = styled.div`
-width: 100%;    
-height: max-content;
-padding: 33rem 2rem 2rem 2rem;
-border-bottom: .5rem solid rgb(20, 184, 196);
-display: grid;
-justify-content: center;
-justify-items: center;
-margin-top: -4rem;
-z-index: -11;
-position: relative;
-
-@media (max-width: 1455px) {
-        padding: 20rem 2rem 2rem 2rem;
-    }
-@media (max-width: 850px) {
-        padding: 10rem 2rem 2rem 2rem;
-}
+        width: 100%;    
+        height: max-content;
+        padding: 10rem 2rem;
+        border-bottom: .5rem solid rgb(20, 184, 196);
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        z-index: -11;
+        position: relative;
 `;
 export const AboutMeSection = styled.section`
         display: inline-grid;
@@ -29,14 +21,14 @@ export const AboutMeSection = styled.section`
 
 `;
 export const AboutMeImage = styled.img`
-margin-top: 3rem;
+        margin-top: 3rem;
         margin-bottom: 3rem;
         width: 15rem;
         height: 25rem;
         border-radius: 2rem;
 `;
 export const AboutMeList = styled.li`
-font-family: inherit;
+        font-family: inherit;
         letter-spacing: .5;
         font-size: 1.5rem;
         list-style: none;
