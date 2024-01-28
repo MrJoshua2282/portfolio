@@ -33,7 +33,7 @@ export default function ContactMe() {
             </li>
             <S.FooterList cursor>
               {" "}
-              <S.Anchor href="https://mccue.s3.us-east-2.amazonaws.com/joshua-mccue-resume.pdf" target="_blank" rel="noopener noreferrer">
+              <S.Anchor href="https://mccue.s3.us-east-2.amazonaws.com/mccue-joshua-resume.pdf" target="_blank" rel="noopener noreferrer">
                 <CardButton>Resume</CardButton>
               </S.Anchor>
             </S.FooterList>
